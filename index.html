@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+</head>
+<link rel="stylesheet" href="style.css" />
+<body>
+   <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">CARGO</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Rasmiylashtirish</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Mashina Turlari
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#scrollspyHeading1">Qimmat Mashinalar</a></li>
+            <li><a class="dropdown-item" href="#">O'rtacha Narxdagi Mashinalar</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Arzon Mashinalar</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true"></a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<div class="g-4 container" style="position: relative; top: 100px;">
+    <div class="row">
+        <div class="col col-sm col-md col-lg col-xl">
+    <div class="card" style="width: 18rem;">
+  <img src="https://assets.nexuspointapex.co.uk/resize/480/tenant_d9013b5a-4990-4f3e-beec-4e1fc85990eb/media/7913479/audi-rs-6-avant-40-tfsi-v8-performance-tiptronic-quattro-euro-6-ss-5dr-8a4283ed9690685301969a65f8782947-68185021c2eab.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title" id="#scrollspyHeading1">AUDI R6</h5>
+    <p class="card-text">Price:60.000 $ 
+        Model R6 
+        This car has the largest back seat and a spacious interior for maximum weight.
+    </p>
+    <a href="#" class="btn btn-primary">Batafsil ma'lumot</a>
+  </div>
+</div>
+</div>
+<div class="col col-sm col-md col-lg col-xl">
+<div class="card" style="width: 18rem;">
+  <img src="https://imgd.aeplcdn.com/1920x1080/n/cw/ec/150125/m2-exterior-right-front-three-quarter-3.jpeg?isig=0&q=80&q=80" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">BMW M2 </h5>
+    <p class="card-text">This is the BMW M2 model. This model is very fast and old. This model competed a lot with Mercedes.
+      Price:65 000$
+      This car gets a 10/10 rating, 0-100 km/h in 3 seconds.
+    </p>
+    <a href="#" class="btn btn-primary">Batafsil ma'lumot</a>
+  </div>
+</div>
+</div>
+<div class="col col-sm col-md col-lg col-xl">
+<div class="card" style="width: 18rem;">
+  <img src="https://stimg.cardekho.com/images/carexteriorimages/930x620/Mercedes-Benz/Mercedes-Benz-M-Class/1951/1562749143258/front-left-side-47.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Mercedes M-CLASS</h5>
+    <p class="card-text">This model is the M-Class model. It is very durable. Many people have bought this model. This car comes with a 5-year warranty..</p>
+    <a href="#" class="btn btn-primary">Batafsil ma'lumot</a>
+  </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+<style>
+    .card:hover {
+  transform: translateX(-6px);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+  transition: 0.5s;
+}
+form>button:hover{
+  transform: translateX(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+@media (max-width: 576px) {
+  .card {
+    width: 100% !important;
+    margin-bottom: 20px;
+  }
+
+  .row > .col {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .card img {
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .card-body {
+    padding: 1rem;
+  }
+}
+.bumaga{
+  text-align: center;
+  color: blueviolet;
+  border-bottom: 4px solid black;
+  width: 100%;  
+ top: 250px;
+ position: relative;
+  }
+  .bumaga:hover{
+    transform: translateY(-6px);
+     text-shadow: 5px 10px 20px rgba(202, 13, 208, 0.15);
+  transition: 0.3s;
+  }
+  .bumag{
+  text-align: center;
+  color: blueviolet;
+  border-bottom: 4px solid black;
+  width: 100%;  
+ top: 450px;
+ position: relative;
+  }
+  .bumag:hover{
+    transform: translateY(-6px);
+     text-shadow: 5px 10px 20px rgba(202, 13, 208, 0.15);
+  transition: 0.3s;
+  }
+  .box{
+    background-color: rgb(228, 237, 246);
+    width: 100%;
+    height: 150px;
+    position: relative;
+    top: 650px;
+  }
+</style>
+<div class="g-4 container" style="position: relative; top: 200px;">
+    <div class="row">
+        <div class="col col-sm col-md col-lg col-xl">
+    <div class="card" style="width: 18rem;">
+  <img src="https://media.drive.com.au/obj/tx_q:50,rs:auto:1920:1080:1/driveau/upload/cms/uploads/BV5bASgVTEybKYCIHxKB" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title" id="#scrollspyHeading1">KIA MOHAVE</h5>
+    <p class="card-text">Price:40.000 $ 
+       The first generation of the Kia Mohave, known by the model code HM, was produced from 2008 to 2019.
+    </p>
+    <a href="#" class="btn btn-primary">Batafsil ma'lumot</a>
+  </div>
+</div>
+</div>
+<div class="col col-sm col-md col-lg col-xl">
+<div class="card" style="width: 18rem;">
+  <img src="https://cdn.riastatic.com/photosnewr/auto/newauto_photos/volkswagen-passat__1086274-620x465x72.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">WOLKSWAGEN B9</h5>
+    <p class="card-text">
+      The Passat B9 is the ninth-generation of the Volkswagen Passat Price:35.000$;
+    </p>
+    <a href="#" class="btn btn-primary">Batafsil ma'lumot</a>
+  </div>
+</div>
+</div>
+<div class="col col-sm col-md col-lg col-xl">
+<div class="card" style="width: 18rem;">
+  <img src="https://asavto-chery.ru/upload/uf/118/u5cagunl0wdo4c1riezjv59if8yf44eu.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Chery Tigo 7 pro</h5>
+    <p class="card-text">The price of a Chery Tiggo 7 Pro in Tayar-Bek varies depending on the year, trim level, and condition Price: 30.000$;</p>
+    <a href="#" class="btn btn-primary">Batafsil ma'lumot</a>
+  </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+<div>
+  <h1 class="bumaga">O'rtacha Narxdagi Moshinalar</h1>
+</div>
+<div class="g-4 container" style="position: relative; top: 300px;">
+    <div class="row">
+        <div class="col col-sm col-md col-lg col-xl">
+    <div class="card" style="width: 18rem;">
+  <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxIQEhUQERAQFRUVEhYVFRUVFhUWFhUVFRYWGBUWFRUYHSkgGBolGxUVIjEhJikrLi4uFx8zODMtNyguLisBCgoKDQ0OFxAPFSsdHR8tLTArNy03LSsrNystNzgtLSsvLysuMC43LSstKy0tKysrKy8tLjErLSstKy8rKy0wK//AABEIAMIBAwMBIgACEQEDEQH/xAAcAAEAAQUBAQAAAAAAAAAAAAAABAEDBQYHAgj/xABHEAABAwIDBAYECwYEBwEAAAABAAIDBBEFEiEGMUFREyJhcYGRFDKhsQcjQkNSYnLBwtHSFRZTkqLwRIKy4TM0VGODk/Ek/8QAGAEBAQEBAQAAAAAAAAAAAAAAAAECAwT/xAAkEQEAAgEEAQMFAAAAAAAAAAAAARECAxIhMVFBgdEEQmFxof/aAAwDAQACEQMRAD8A7cFVEQFVEQEREBVREBERAREQEREBERAREQEREBERAREQEREBERAQoiC30fa7zVej7Xea9ogoB2lFVEHlVREBERAVURAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREFEREBVREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREFECIgqiIgIiICIiAiIgIioTZBVFreK7Y09NOIZZYspjDgQ9uYOuQQWk6iwG7XepP730H/AFtN3dI2/vQZtFhW7WUJ0FZTE8ukZfyupUeMwu9R2b7PW9yDIIonp4+i/wARb3qn7QbyPm380ExFFFe3kf6fzXttWw8fv9yC+i8NlaeIXtAREQEREBERAREQEREBERBRFRVQEREBEUd9bGDbO0kfJb1nfytuUEhFBnxKwORhJtpmIjbftzdYD/KVg6qslePjamKP6kJflHY6TR7iObSzuQbFVV8UWj3gG18u9xHMMGpHgtfxTbWGK9vaR5gNvfxIWn4vA5wIbXRsBN7NhIBPM2fqe06rTcRwKV26tjd/43j8RVobHtF8LT2XEW/s0Hhx9q5xjG3FdVHWZwHf96yTfg9r5zeOOOQc2mRvmXMt7VlMO+CeUHNXVUNO3+HEemmPMcGt79e5EaE18r9XyOJ5km63rZ7YSrlaJJAKeM/LnJYSPqx+s7yAPNbphdBR0H/KU4Dx/iJrSTHmWk6R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" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title" id="#scrollspyHeading1">CLS AMG 63</h5>
+    <p class="card-text">Price:90.000$; 
+       On the new CLS63 AMG S-Model, the AMG 5.5-liter V8 biturbo engine produces 577 horsepower and 590 lb.-ft.
+    </p>
+    <a href="#" class="btn btn-primary">Batafsil ma'lumot</a>
+  </div>
+</div>
+</div>
+<div class="col col-sm col-md col-lg col-xl">
+<div class="card" style="width: 18rem;">
+  <img src="https://www.motortrend.com/uploads/sites/10/2021/10/2021-bmw-m5-competition-4wd-sedan-angular-front.png?w=768&width=768&q=75&format=webp" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">BMW M5 F90</h5>
+    <p class="card-text">First BMW M5 with M xDrive all-wheel drive · Up to 467 kW (635 hp) · 750 Nm max. torque ·Compared to the power unit of the previous model, 
+      Price:80.000$
+    </p>
+    <a href="#" class="btn btn-primary">Batafsil ma'lumot</a>
+  </div>
+</div>
+</div>
+<div class="col col-sm col-md col-lg col-xl">
+<div class="card" style="width: 18rem;">
+  <img src="https://images-porsche.imgix.net/-/media/2B1B53F155074C1591397D78EE530FA4_54F74867AE7F4D2B87128A2C3F761F1D_CZ25W12IX0011-911-carrera-gts-front?w=999&q=85&auto=format" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">PORSCHE 911</h5>
+    <p class="card-text">The Porsche 911 model series is a family of German two-door, high performance rear-engine sports cars introduced in September 1964 by Porsche AG of ...</p>
+    <a href="#" class="btn btn-primary">Batafsil ma'lumot</a>
+  </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="g-4 container" style="position: relative; top: 400px;">
+    <div class="row">
+        <div class="col col-sm col-md col-lg col-xl">
+    <div class="card" style="width: 18rem;">
+  <img src="https://gld-creative.s3.us-west-2.amazonaws.com/2025-chevrolet-corvette-stingray-coupe-1lt-d34f6af81cab-600x300.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title" id="#scrollspyHeading1">CORVETTE C8</h5>
+    <p class="card-text">Price:160.000 $ 
+        It is the first rear mid-engine Corvette since the model's introduction in 1953, differing from the traditional front mid-engine design started in 1963.
+    </p>
+    <a href="#" class="btn btn-primary">Batafsil ma'lumot</a>
+  </div>
+</div>
+</div>
+<div class="col col-sm col-md col-lg col-xl">
+<div class="card" style="width: 18rem;">
+  <img src="https://avatars.mds.yandex.net/get-vertis-journal/4469561/2019-09-09-5742868570a14eb99c7ce1078b606e2e.jpg_1622735908522/orig" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">GELIK WAGEN BRABUS</h5>
+    <p class="card-text">
+        Price:250.000$;
+     The peak of performance. When the mountain calls, the G-Class roars. The beating heart of the G 63 is a V8 BITURBO engine.
+    </p>
+    <a href="#" class="btn btn-primary">Batafsil ma'lumot</a>
+  </div>
+</div>
+</div>
+<div class="col col-sm col-md col-lg col-xl">
+<div class="card" style="width: 18rem;">
+  <img src="https://images.barrons.com/im-27543178?width=700&height=370" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">BYD U9</h5>
+    <p class="card-text">Price:230.000$;
+       The YangWang U9, BYD's $230000 EV with 1287 hp, can use its Disus X suspension to leap over potholes, spikes, and dust strips</p>
+    <a href="#" class="btn btn-primary">Batafsil ma'lumot</a>
+  </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+  <div>
+    <h1 class="bumag">Qimmat Narxdagi Moshinalar</h1>
+  </div>
+  <div class="g-4 container" style="position: relative; top: 500px;">
+    <div class="row">
+        <div class="col col-sm col-md col-lg col-xl">
+    <div class="card" style="width: 18rem;">
+  <img src="https://i.bstr.es/highmotor/2022/03/ferrari-f8-tributo-mansory-3.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title" id="#scrollspyHeading1">FERRARI F8 </h5>
+    <p class="card-text">Price:430.000$; 
+      The Ferrari F8 Tributo is a mid-rear-engined sports car that pays tribute to Ferrari's most powerful V8 engineThe expensive car the best on the wold
+    </p>
+    <a href="#" class="btn btn-primary">Batafsil ma'lumot</a>
+  </div>
+</div>
+</div>
+<div class="col col-sm col-md col-lg col-xl">
+<div class="card" style="width: 18rem;">
+  <img src="https://avatars.mds.yandex.net/get-verba/997355/2a0000016788f4a5fa2ba750e545f1da6fdb/auto_main" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">LAMBORGHINI AVENTADOR</h5>
+    Price:500.000$
+    <p class="card-text">Lamborghini Aventador: technical specifications, performance (top speed and acceleration),
+        The expensive car
+    </p>
+    <a href="#" class="btn btn-primary">Batafsil ma'lumot</a>
+  </div>
+</div>
+</div>
+<div class="col col-sm col-md col-lg col-xl">
+<div class="card" style="width: 18rem;">
+  <img src="https://ymimg1.b8cdn.com/resized/car_model/5882/logo/mobile_listing_main_2018_Bugatti_Chiron.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">BUGATTI CHIRON</h5>
+    <p class="card-text">Price:4.000.000$;
+     The Bugatti Chiron is a mid-engine two-seater sports car designed and developed in Germany by Bugatti Engineering GmbH.
+    </p>
+    <a href="#" class="btn btn-primary">Batafsil ma'lumot</a>
+  </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="g-4 container" style="position: relative; top: 600px;">
+    <div class="row">
+        <div class="col col-sm col-md col-lg col-xl">
+    <div class="card" style="width: 18rem;">
+  <img src="https://amian-collectioncars.com/wp-content/uploads/2024/06/DSC3501-2.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title" id="#scrollspyHeading1">PAGANI ZONDA</h5>
+    <p class="card-text">Price:600.000 $ 
+       The Pagani Zonda is a mid-engine sports car produced by Italian sports car manufacturer Pagani. It debuted at the 1999 Geneva Motor Show.
+    </p>
+    <a href="#" class="btn btn-primary">Batafsil ma'lumot</a>
+  </div>
+</div>
+</div>
+<div class="col col-sm col-md col-lg col-xl">
+<div class="card" style="width: 18rem;">
+  <img src="https://images.dealer.com/ddc/vehicles/2025/Rolls-Royce/Phantom/Sedan/still/front-left/front-left-640-en_US.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">ROLLS ROYCE</h5>
+    <p class="card-text">Price:500.000$;
+Rolls-Royce Limited was a British luxury car and later an aero-engine manufacturing business established in 1904 in Manchester
+    </p>
+    <a href="#" class="btn btn-primary">Batafsil ma'lumot</a>
+  </div>
+</div>
+</div>
+<div class="col col-sm col-md col-lg col-xl">
+<div class="card" style="width: 18rem;">
+  <img src="https://carsguide-res.cloudinary.com/image/upload/f_auto,fl_lossy,q_auto,t_default/v1/editorial/story/hero_image/1955-Mercedes-Benz-300-SL-Uhlenhaut-Coupe-1001x565-(1).jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">MERCEDES 300 CLR CUPE</h5>
+    <p class="card-text">
+Mercedes Benz 300 SLR “Uhlenhaut-Coupé”.
+The Mercedes-Benz 300 SLR "Uhlenhaut Coupé" is a highly sought-after and valuable classic car. It was built in 1955 </p>
+    <a href="#" class="btn btn-primary">Batafsil ma'lumot</a>
+  </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+<div class="container-fluid">
+  <div class="row">
+  <div class="col col-sm col-md col-lg col-xl">
+    <div class="box">
+    
+    </div>
+  </div>
+  </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+</body>
+</html>
